@@ -1,0 +1,74 @@
+body{
+    background: whitesmoke;
+    font-family: 'Arial Narrow Bold', sans-serif;
+    color:#333;
+    font-size: 1.1em;
+    line-height: 1.6em;
+    margin: 0%;
+}
+
+.container{
+    width: 85%;
+    max-width: 850px;
+    margin: 0 auto;
+}
+
+.header{
+    background:url("https://pixabay.com/get/gdcf1a34c840ea3391ee8f0bab3cfe7aff3d34db76f1308021aeae57f53882fbddf193ff7177d5b4cf9b5c15578239bb2_1920.jpg");
+    color: whitesmoke;
+    padding: 2rem 0;
+    position: fixed;
+    left: 0;
+    right:0;
+    top: 0; 
+}
+
+.header a{
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.titulo{
+    letter-spacing:5px;
+    font-size: 1.2em;
+}
+
+.navegation ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.navegation ul li a{
+     display: block;
+     padding: 0.5 rem 1rem;
+     transition: all0.4s liner;
+     border-radius: 5px;
+}
+
+
+.navegation ul li a:hover{
+    background: rgba(87, 204, 132, 0.719);
+}
+
+.main{
+    padding: 10rem;
+    text-align: center;
+}
+
+.btn{
+    background:url("https://pixabay.com/get/gdcf1a34c840ea3391ee8f0bab3cfe7aff3d34db76f1308021aeae57f53882fbddf193ff7177d5b4cf9b5c15578239bb2_1920.jpg");
+    color: whitesmoke;
+    width: 150px;
+    height: 40px;
+    font-size: 15px;
+    font-family: 'Arial Narrow Bold', sans-serif;
+}
+
+

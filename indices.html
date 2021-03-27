@@ -1,0 +1,51 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INVENTARIOS</title>
+    <link rel="stylesheet" href="css/ind.css">
+</head>
+<body>
+
+<header class="header">
+<div class="container logo">
+    <a href="#" class="titulo">Inventarios</a>
+    <nav class="navegation">
+    <ul>
+        <li><a href="Index.html">Regresar al Menú</a></li>
+    </ul>
+    </nav>
+</div>
+</header>
+
+<main class="main">
+    <div class="container">
+        <form name="formulario" id="formulario" method="POST">
+            <label>Lambda (λ): </label>
+            <input type="number" name="h" id="h" autofocus><br><br>
+            <label>Miu (µ): </label>
+            <input type="number" name="M" id="M" autofocus><br><br>
+            <button onclick="Calcular(); validar()" class="btn">Calcular</button><br><br>
+            
+            
+            <label>Ls: </label> 
+            <input type="number" name="" id="ls" readonly autofocus><br><br>
+            <label>Ws: </label>
+            <input type="number" name="" id="ws" readonly autofocus><br><br>
+            <label>Lq: </label>
+            <input type="number" name="" id="lq" readonly autofocus><br><br>
+            <label>Wq: </label>
+            <input type="number" name="" id="wq" readonly autofocus><br><br>
+            <label>P: </label>
+            <input type="number" name="" id="p" readonly autofocus><br><br>
+            <label>Po: </label>
+            <input type="number" name="" id="po" readonly autofocus>
+            </form>
+    </div>
+
+</main>
+<script type="text/javascript" src="js/cal.js"></script>
+<script type="text/javascript" src="js/validar.js"></script>
+</body>
+</html>
+

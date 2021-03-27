@@ -1,0 +1,53 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INVENTARIOS</title>
+    <link rel="stylesheet" href="css/in.css">
+</head>
+<body>
+
+<header class="header">
+<div class="container logo">
+    <a href="#" class="titulo">Inventarios</a>
+    <nav class="navegation">
+    <ul>
+        <li><a href="Index.html">Regresar al Menú</a></li>
+    </ul>
+    </nav>
+</div>
+</header>
+
+<main class="main">
+    <div class="container">
+        <form id="formulario" method="POST">
+            <label>Demanda: </label>
+            <input type="number" name="" id="dm" autofocus><br><br>
+            <label>Costo por unidad: </label>
+            <input type="number" name="" id="cxu" autofocus><br><br>
+            <label>Costo por preparación: </label>
+            <input type="number" name="" id="cxp" autofocus><br><br>
+            <label>Costo de mantenimiento: </label>
+            <input type="number" name="" id="cdm" autofocus><br><br>
+            <label>Días habiles: </label>
+            <input type="number" name="" id="dh" autofocus><br><br>
+            <button onclick="Calcular();" class="btn">Calcular</button><br><br>
+            
+            
+            <label>Cantidad de la orden: </label> 
+            <input type="number" name="" id="cdlo" readonly autofocus><br><br>
+            <label>Número de ordenes: </label>
+            <input type="number" name="" id="ndo" readonly autofocus><br><br>
+            <label>Tiempo entre ordenes: </label>
+            <input type="number" name="" id="teo" readonly autofocus><br><br>
+            <label>Demanda por día: </label>
+            <input type="number" name="" id="dpd" readonly autofocus><br><br>
+            <label>Costo total: </label>
+            <input type="number" name="" id="ct" readonly autofocus><br><br>
+            </form>
+    </div>
+
+</main>
+<script type="text/javascript" src="js/fun.js"></script>
+</body>
+</html>
